@@ -1,0 +1,27 @@
+# Music CDN Project
+
+This project is a **Content Delivery Network (CDN)** for hosting and streaming audio files. It uses Docker and Nginx to serve static audio content efficiently. This README explains how to set up, run, and contribute to the project.
+
+---
+
+## Features
+
+- Serves audio files in multiple formats (MP3, AAC, OGG).  
+- Built with Docker for easy deployment.  
+- Can be extended to edge servers for low-latency streaming.  
+- Simple analytics via Nginx logs (optional monitoring stack can be added).  
+
+---
+
+## Prerequisites
+
+Before using the project, make sure your system has:
+
+- **Docker** (tested on Docker CE)  
+- **Nginx** (installed inside the Docker container)  
+- **Git**  
+
+For installation, you can use the provided script:
+
+```bash
+sudo bash install_dependencies.sh
